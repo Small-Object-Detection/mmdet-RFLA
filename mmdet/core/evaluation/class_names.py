@@ -78,7 +78,7 @@ def coco_classes():
         'couch', 'potted_plant', 'bed', 'dining_table', 'toilet', 'tv',
         'laptop', 'mouse', 'remote', 'keyboard', 'cell_phone', 'microwave',
         'oven', 'toaster', 'sink', 'refrigerator', 'book', 'clock', 'vase',
-        'scissors', 'teddy_bear', 'hair_drier', 'toothbrush'
+        'scissors', 'teddy_bear', 'hair_drier', 'toothbrush','rebar'
     ]
 
 

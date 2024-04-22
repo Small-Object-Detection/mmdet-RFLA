@@ -17,7 +17,8 @@ from .custom import CustomDataset
 @DATASETS.register_module()
 class AITODDataset(CocoDataset):
 
-    CLASSES = ('airplane', 'bridge', 'storage-tank', 'ship', 'swimming-pool', 'vehicle', 'person', 'wind-mill')
+    # CLASSES = ('airplane', 'bridge', 'storage-tank', 'ship', 'swimming-pool', 'vehicle', 'person', 'wind-mill')
+    CLASSES = ('tool', 'tool_b')
 
     def evaluate(self,
                  results,
@@ -192,7 +193,7 @@ class AITODDataset(CocoDataset):
                     table_data += [result for result in results_2d]
                     table = AsciiTable(table_data)
                     print_log('\n' + table.table, logger=logger)
-                
+
                 if classwise_lrp:  # Compute per-category AP
                     # Compute per-category AP
                     # from https://github.com/facebookresearch/detectron2/
