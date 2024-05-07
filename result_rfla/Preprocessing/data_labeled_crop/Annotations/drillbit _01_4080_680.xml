@@ -1,0 +1,24 @@
+<annotation>
+  <folder>VOC2007</folder>
+  <filename>/home/skyarrow/Workspace/Drillbit-Detection/Preprocessing/data</filename>
+  <source>
+    <annotation>PASCAL VOC2007</annotation>
+    <database>Unknown</database>
+    <image>flickr</image>
+    <flickrid>35435</flickrid>
+  </source>
+  <size>
+    <width>640</width>
+    <height>640</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>2</name>
+    <bndbox>
+      <xmin>52.00418399999944</xmin>
+      <ymin>596.501616</ymin>
+      <xmax>144.0013199999994</xmax>
+      <ymax>702.498936</ymax>
+    </bndbox>
+  </object>
+</annotation>
